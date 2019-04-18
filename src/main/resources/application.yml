@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://hostname:port/dbName
+    username: XXX
+    password: XXX
+  jpa:
+    hibernate.ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+  aws:
+    access-key: XXX
+    secret: XXX
+
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com/
+  accessKey: XXX
+  secretKey: XXX
+  bucketName: XXX
+
+apiData:
+  dogApiUrl: https://dog.ceo/api/breeds/image/random
